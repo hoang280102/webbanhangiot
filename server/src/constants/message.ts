@@ -1,0 +1,26 @@
+export const userMessages = {
+  VALIDATION_ERROR: "Validation error",
+  IS_EMAIL: "must is email",
+  NOT_EMPTY: "must not be empty",
+  IS_STRING: "must string",
+  EMAIL_EXIST: "email already exists",
+  STRONG_PASSWORD:
+    "password must contain at least 1 lowercase character, 1 uppercase character, 1 number, 1 symbols, min length :8 character",
+  CONFIRM_PASSWORD_DIFFERENCE_PASSWORD:
+    "confirm password is different password",
+  EMAIL_IS_NOT_FOUND: "Email is not found",
+  PASSWORD_NOT_VALID: "password is not valid",
+  CREATED_USER: "User already created",
+  LOGIN_SUCCESS: "Login success",
+  ACCESS_TOKEN_IS_REQUIRED: "access token is required",
+  REFRESH_TOKEN_IS_REQUIRED: "Refresh token is required",
+  REFRESH_TOKEN_IS_USED_OR_NOT_EXIST: "refresh token is used or not exist",
+  LOGOUT_SUCCESS: "Logout success",
+  NAME_IS_LENGTH: "name have length from 2 characters to 30 characters",
+  UPDATE_INFOR_SUCCESS: "Update information success",
+  FORGOT_PASSWORD_SUCCESS: "Please check your email ",
+  FORGOT_PASSWORD_TOKEN_IS_REQUIRED: "forgot password token is required",
+  USER_NOT_FOUND: "User not found",
+  VERIFY_FORGOT_PASSWORD_SUCCESS: "verify forgot password successfully",
+  RESET_PASSWORD_SUCCESS: "reset password successfully",
+};
